@@ -2,39 +2,22 @@
 
 ## Current Phase
 
-Foundation Phase
+AIOS v0.2 — Agent System foundation proposal, awaiting review. Released system identity remains v0.1.0.
 
 ## Current Mission
 
-Complete AIOS core foundation files and move to agent architecture.
+Review the six agent definitions and the permission, decision, memory, and handoff contracts.
 
-## Completed
+## Prepared for Review
 
-- SYSTEM.md
-- AI_WORKFLOW.md
-- PROJECT_RULES.md
-- KNOWN_BUGS.md
-- CHANGELOG.md
-- AGENTS/README.md
-- SKILLS/README.md
-- PROJECTS/README.md
+- Six role definitions and task lifecycle in AGENTS/.
+- PERMISSIONS.md, DECISIONS.md, and MEMORY.md.
+- Workflow mapping and VALIDATION.md review scenarios.
 
-## Next Phase
+## Next Action
 
-AIOS v0.2 — Agent System
+Review the proposal using [VALIDATION.md](VALIDATION.md), record the acceptance or requested revisions, and merge only through the authorized review process.
 
-Create:
+## Subsequent Work
 
-- CEO_AGENT
-- PROJECT_MANAGER
-- ARCHITECT_AGENT
-- RESEARCH_AGENT
-- QA_AGENT
-- WORKER_AGENT
-
-## v0.2 Goals
-
-- Agent structure.
-- Permission system.
-- Decision system.
-- Memory system.
+After foundation acceptance, define a separate implementation task for a minimal agent runner, tool permission enforcement, durable record handling, and an end-to-end test. Select runtime, resource limits, and acceptance criteria before implementation. No runtime or release is completed by this documentation proposal.

@@ -29,3 +29,9 @@ No task is considered complete until:
 - Result is validated.
 - Known issues are documented.
 - Next action is defined.
+
+## Proposed v0.2 Agent Mapping
+
+Use [AGENTS/README.md](AGENTS/README.md) for task states and handoff fields. CEO_AGENT confirms direction within Owner authority; PROJECT_MANAGER plans; ARCHITECT_AGENT designs and RESEARCH_AGENT supplies evidence when needed; WORKER_AGENT executes; QA_AGENT validates; CEO_AGENT accepts delivery after the quality gate. Record decisions and evidence using [DECISIONS.md](DECISIONS.md) and [MEMORY.md](MEMORY.md).
+
+This mapping is a review proposal. The foundation does not launch agents or enforce tool permissions.
