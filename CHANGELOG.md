@@ -1,5 +1,12 @@
 # AIOS Changelog
 
+## Unreleased — v0.2 Foundation Proposal
+
+- Added six agent role contracts and shared task/handoff lifecycle.
+- Proposed explicit permission grants, decision approval records, and file-based memory conventions.
+- Connected agent roles to the existing workflow and added review scenarios.
+- Updated the next action to foundation review; runtime execution and enforcement remain future work.
+
 ## Version 0.1.0
 
 ### Initial Project Initialization
